@@ -6,7 +6,7 @@ const messages = [];
 
 const pubsub = new RedisPubSub({
   connection: {
-    host: 'localhost',
+    host: 'redis',
     port: 6379,
   },
 });
